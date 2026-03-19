@@ -25,3 +25,10 @@ TrackIt is a full-stack web application built using Django that helps users mana
 ---
 
 ## 📂 Project Structure
+TrackIt/
+│── finance_tracker/
+│── users/
+│── templates/
+│── static/
+│── db.sqlite3
+│── manage.py
