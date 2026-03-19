@@ -25,10 +25,39 @@ TrackIt is a full-stack web application built using Django that helps users mana
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+
 TrackIt/
-│── finance_tracker/
-│── users/
-│── templates/
-│── static/
-│── db.sqlite3
+│── djfintracker/
+│ ├── init.py
+│ ├── asgi.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── wsgi.py
+│
+│── finance/
+│ ├── migrations/
+│ ├── templates/
+│ │ ├── base.html
+│ │ ├── dashboard.html
+│ │ ├── goal_form.html
+│ │ ├── register.html
+│ │ ├── transaction_form.html
+│ │ ├── transaction_list.html
+│ │ ├── registration/
+│ │ │ ├── login.html
+│ │
+│ ├── admin.py
+│ ├── apps.py
+│ ├── forms.py
+│ ├── models.py
+│ ├── urls.py
+│ ├── views.py
+│
 │── manage.py
+│── db.sqlite3
+│── requirements.txt
+│── vercel.json
+│── build_files.sh
+│── README.md
