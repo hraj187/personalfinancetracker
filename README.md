@@ -21,6 +21,3 @@ TrackIt is a full-stack web application built using Django that helps users mana
 - **Frontend:** HTML, CSS  
 - **Database:** SQLite  
 - **Tools:** Git, Postman  
-│── vercel.json
-│── build_files.sh
-│── README.md
